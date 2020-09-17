@@ -20,10 +20,9 @@ public class LilApplication {
 		SpringApplication.run(LilApplication.class, args);
 	}
 
-	/*
 	// Create a rest endpoint for Rooms
 	@RestController
-	@RequestMapping("/rooms")
+	@RequestMapping("/api/rooms")
 	class RoomController{
 		@Autowired
 		private RoomRepository roomRepository;
@@ -36,7 +35,7 @@ public class LilApplication {
 	}
 
 	@RestController
-	@RequestMapping("/guests")
+	@RequestMapping("/api/guests")
 	class GuestController{
 		@Autowired
 		private GuestRepository guestRepository;
@@ -47,6 +46,7 @@ public class LilApplication {
 		}
 
 	}
+	/*
 	@RestController
 	@RequestMapping("/reservations")
 	class ReservationController{
@@ -59,5 +59,5 @@ public class LilApplication {
 		}
 
 	}
-	*/
+	 */
 }

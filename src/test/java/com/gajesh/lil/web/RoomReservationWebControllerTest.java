@@ -33,7 +33,7 @@ public class RoomReservationWebControllerTest {
 
     @Test
     public void getReservations() throws Exception{
-        String dateString = "2020-02-02";
+        String dateString = "2020-01-01";
         Date date = DateUtils.getDateFromDateString(dateString);
         List<RoomReservation> roomReservations = new ArrayList<>();
         RoomReservation roomReservation = new RoomReservation();
@@ -55,3 +55,4 @@ public class RoomReservationWebControllerTest {
 
     }
 }
+
